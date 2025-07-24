@@ -1,5 +1,8 @@
+[general]
+showWarningOnDirectExecution = false
+
 [server]
 headless = true
+port = 7860
 enableCORS = false
-port = 8501
 enableXsrfProtection = false
