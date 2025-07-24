@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: brain-tumour-project
+    env: python
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "streamlit run app.py"
+    runtime: python-3.10.13
