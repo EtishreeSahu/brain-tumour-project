@@ -1,5 +1,9 @@
 import os
+
+# Redirect Streamlit config directory to avoid permission issues
+os.environ["STREAMLIT_HOME"] = "/tmp"
 os.environ["STREAMLIT_BROWSER_GATHERUSAGESTATS"] = "false"
+
 
 import streamlit as st
 import numpy as np
