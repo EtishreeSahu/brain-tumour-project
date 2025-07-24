@@ -1,6 +1,10 @@
+import os
+os.environ["STREAMLIT_BROWSER_GATHERUSAGESTATS"] = "false"
+
 import streamlit as st
 import numpy as np
-import os
+# rest of your code
+
 import gdown
 from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing import image
